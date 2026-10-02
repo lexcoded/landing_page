@@ -25,9 +25,7 @@
 }
 .header-menu{
     display: flex;
-    justify-content: flex-end;
    margin-top: 15px;
-  align-items: flex-end;
   gap: 10px;
     
 }
@@ -40,6 +38,7 @@ text-decoration: none;
 
 
 .logo{
+    display: flex;
     color: #f9faf8;
     font-size: 24px;
     font-weight: 500;
@@ -103,13 +102,14 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: flex-start;
     align-items: center;
-      
     width: 100%;
     padding:30px;
     flex: 1;
 
+}
+h1{
+    padding-bottom: 20px;
 }
 .four-box-container{
 display: flex;
@@ -122,7 +122,12 @@ flex-direction: row;
 
 }
 .box-and-subtext-container{ 
-    width: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 140px;
     margin: 20px;
 }
 
@@ -148,19 +153,26 @@ flex-direction: row;
     
 }
 .quote-text{
-    text-align: center;
-    padding:30px;
+    display: flex;
+    justify-content: left;
+    text-align: justify;
+    font-size: 36px;
+    font-weight: 300;
 height: 200px;
-text-align: center;
 flex-wrap: wrap;
 width: 900px;
- gap: 10px;
+ 
 
 }
 .quote-container span{
+    display: flex;
     color: black;
     font-size: 18px;
     font-weight: bold;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    margin: 0;
     
 }
 
